@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Modern movie browsing application",
   "private": true,
+  "homepage": "https://v1zul.github.io/FilmHub",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -15,7 +16,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "cd server && npm start",
-    "dev": "./start-dev.sh"
+    "dev": "./start-dev.sh",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -33,7 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
-
-

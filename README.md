@@ -2,6 +2,8 @@
 
 A modern, responsive movie discovery application built with React. Browse popular movies, search for your favorites, and explore detailed information about films.
 
+🌐 **Live Demo:** [https://v1zul.github.io/FilmHub](https://v1zul.github.io/FilmHub)
+
 ## Features
 
 - 🎬 **Browse Movies**: Discover popular, top-rated, trending, and now-playing movies
@@ -89,6 +91,28 @@ See `SETUP_BACKEND.md` for detailed backend setup instructions.
 3. Navigate to Settings > API
 4. Request an API key
 5. Copy your API key and add it to your `.env` file
+
+## Deployment
+
+The app is deployed to GitHub Pages and can be accessed at: [https://v1zul.github.io/FilmHub](https://v1zul.github.io/FilmHub)
+
+### Deploying Updates
+
+To deploy updates to GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+This will:
+1. Build the production version of the app
+2. Deploy it to the `gh-pages` branch
+3. Make it available on GitHub Pages
+
+**Note:** Make sure GitHub Pages is enabled in your repository settings:
+1. Go to Settings → Pages
+2. Source should be set to "Deploy from a branch"
+3. Branch should be `gh-pages` with folder `/ (root)`
 
 ## Project Structure
 

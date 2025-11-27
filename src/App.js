@@ -9,8 +9,12 @@ import Search from './pages/Search';
 import './App.css';
 
 function App() {
+  // Use basename for GitHub Pages deployment
+  const basename = process.env.PUBLIC_URL || '';
+  
   return (
     <Router
+      basename={basename}
       future={{
         v7_startTransition: true,
         v7_relativeSplatPath: true
