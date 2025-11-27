@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+}
+
+/* Mobile optimizations */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button, a {
+  touch-action: manipulation;
+}
+
+/* Improve touch targets on mobile */
+@media (max-width: 768px) {
+  button, a, input, select {
+    min-height: 44px; /* Minimum touch target size */
+  }
+
+  /* Prevent text size adjustment on iOS */
+  input, textarea, select {
+    font-size: 16px !important;
+  }
+}
+
+/* Smooth scrolling for mobile */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Global ad blocking styles */
+/* Hide common ad patterns that might appear in iframes */
+iframe[src*="doubleclick"],
+iframe[src*="googleads"],
+iframe[src*="advertising"],
+iframe[src*="/ads/"],
+iframe[src*="ads."] {
+  display: none !important;
+}
+
+/* Block popup overlays */
+body > div[style*="position: fixed"][style*="z-index"]:not(#root):not([class*="video"]):not([class*="modal"]) {
+  display: none !important;
+}
+
+
