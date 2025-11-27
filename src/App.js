@@ -10,6 +10,7 @@ import './App.css';
 
 function App() {
   // Use basename for GitHub Pages deployment
+  // PUBLIC_URL is set by Create React App based on homepage in package.json
   const basename = process.env.PUBLIC_URL || '';
   
   return (
