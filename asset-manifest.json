@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FilmHub/static/css/main.3e9deedd.css",
+    "main.js": "/FilmHub/static/js/main.56296904.js",
+    "index.html": "/FilmHub/index.html",
+    "main.3e9deedd.css.map": "/FilmHub/static/css/main.3e9deedd.css.map",
+    "main.56296904.js.map": "/FilmHub/static/js/main.56296904.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e9deedd.css",
+    "static/js/main.56296904.js"
+  ]
+}
