@@ -107,7 +107,6 @@ const VideoPlayer = ({ movieId, movieTitle }) => {
               title={`Streaming ${movieTitle || 'movie'}`}
               loading="lazy"
               referrerPolicy="no-referrer"
-              sandbox="allow-same-origin allow-scripts allow-forms allow-presentation"
             ></iframe>
             {/* Ad blocker overlay - blocks common ad patterns */}
             <div className="ad-blocker-overlay"></div>
